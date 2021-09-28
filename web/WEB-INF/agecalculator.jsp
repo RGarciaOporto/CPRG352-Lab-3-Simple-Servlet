@@ -25,6 +25,6 @@
         </form>
         
         <p>${message} ${nextAge}</p>
-        <a href="arithmeticCalculator.jsp">Arithmetic Calculator</a>
+        <a href="/Lab03_SimpleServlet/arithmetic">Arithmetic Calculator</a>
     </body>
 </html>

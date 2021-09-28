@@ -15,17 +15,21 @@
     <body>
         <h1>Arithmetic Calculator</h1>
         
-        <form method ="GET" action="arithmetic">
+        <form method ="POST" action="arithmetic">
         <label>First Number:</label>
         <input type="text" name="firstNumber"> 
         <br>
         
         <label>Second Number:</label>
         <input type="text" name="secondNumber"> 
+        <br>
         
-        <input type="button" name="add" value="+">
+        <input type="submit" name="add" value="+">
+        <input type="submit" name="subtract" value="-">
+        <input type="submit" name="multiply" value="*">
+        <input type="submit" name="modulus" value="%">
         
         <p>Result: ${result} </p>
-        <a href="ageCalculator.jsp">Age Calculator</a>
+        <a href="/Lab03_SimpleServlet/age">Age Calculator</a>
     </body>
 </html>
