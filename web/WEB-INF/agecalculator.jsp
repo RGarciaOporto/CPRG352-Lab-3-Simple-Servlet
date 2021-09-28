@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Age Calculator</title>
     </head>
+    
     <body>
         <h1>Age Calculator</h1>
         
@@ -27,4 +28,3 @@
         <a href="arithmeticCalculator.jsp">Arithmetic Calculator</a>
     </body>
 </html>
-s

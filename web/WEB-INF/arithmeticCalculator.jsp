@@ -9,21 +9,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Arithmetic Calculator</title>
     </head>
+    
     <body>
         <h1>Arithmetic Calculator</h1>
         
-        <form method ="POST" action="arithmetic">
+        <form method ="GET" action="arithmetic">
         <label>First Number:</label>
         <input type="text" name="firstNumber"> 
         <br>
+        
         <label>Second Number:</label>
         <input type="text" name="secondNumber"> 
         
         <input type="button" name="add" value="+">
         
-        <p>Result: ${Result} </p>
+        <p>Result: ${result} </p>
         <a href="ageCalculator.jsp">Age Calculator</a>
     </body>
 </html>
