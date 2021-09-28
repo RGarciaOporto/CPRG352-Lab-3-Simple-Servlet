@@ -24,5 +24,7 @@
         </form>
         
         <p>${message} ${nextAge}</p>
+        <a href="arithmeticCalculator.jsp">Arithmetic Calculator</a>
     </body>
 </html>
+s
