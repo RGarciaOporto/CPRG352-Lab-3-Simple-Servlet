@@ -17,11 +17,11 @@
         
         <form method ="POST" action="arithmetic">
         <label>First Number:</label>
-        <input type="text" name="firstNumber"> 
+        <input type="text" name="firstNumber" value="${firstNumber}"> 
         <br>
         
         <label>Second Number:</label>
-        <input type="text" name="secondNumber"> 
+        <input type="text" name="secondNumber" value="${secondNumber}"> 
         <br>
         
         <input type="submit" name="add" value="+">
